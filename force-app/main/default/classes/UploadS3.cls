@@ -7,9 +7,9 @@ public with sharing class UploadS3 {
         String attachmentBody = EncodingUtil.base64Encode(attach.versionData);
     String formattedDateString = Datetime.now().formatGMT('EEE, dd MMM yyyy HH:mm:ss z');
     String key = 'AKIAIPOJF5R4FE6YB5VQ';
-    String secret = 'JkeBzX7bT0U/XXPAFLC4vUXV6UJhjq/eWXEfz1OEsfdx';
+    String secret = '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';
     String bucketname = 'mybucket-salesforce';
-    String host = 's3-us-west-2.amazonaws.com';
+    String host = 's3-us-west-1.amazonaws.com';
     String method = 'PUT';
     String filename = attach.Id + '-' + attach.Title;
 
@@ -24,7 +24,6 @@ public with sharing class UploadS3 {
     req.setHeader('Date', formattedDateString);
     req.setHeader('ACL', 'public-read');
     req.setBody(attachmentBody);
-
     String stringToSign = 'PUT\n\n' +
         attach.FileType + '\n' +
         formattedDateString + '\n' +
