@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>default</label>
+    <protected>false</protected>
+    <values>
+        <field>AccessKey__c</field>
+        <value xsi:type="xsd:string">AKIAIPOJF5R4FE6YB5VQ</value>
+    </values>
+    <values>
+        <field>SecretKey__c</field>
+        <value xsi:type="xsd:string">JkeBzX7bT0U/XXPAFLC4vUXV6UJhjq/eWXEfz1OE</value>
+    </values>
+    <values>
+        <field>bucket__c</field>
+        <value xsi:type="xsd:string">plan</value>
+    </values>
+    <values>
+        <field>folder__c</field>
+        <value xsi:type="xsd:string">attachment</value>
+    </values>
+    <values>
+        <field>region__c</field>
+        <value xsi:type="xsd:string">us-west-1</value>
+    </values>
+</CustomMetadata>
