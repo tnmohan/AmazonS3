@@ -151,8 +151,8 @@ public with sharing class UploadS3 {
     
     String key = 'AKIAJBD3UCZAHLZ4APMQ';
     String secret = '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';
-    String bucketname = 'mybucket-salesforce';
-    String host = 's3-us-west-1.amazonaws.com';
+    String bucketname = 'planpackage';
+    String host = 's3-us-west-2.amazonaws.com';
     String method = 'PUT';
     String filename = attach.Id + '-' + attach.Title;
 

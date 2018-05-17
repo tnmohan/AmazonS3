@@ -4,15 +4,15 @@
     <protected>false</protected>
     <values>
         <field>AccessKey__c</field>
-        <value xsi:type="xsd:string">AKIAIPOJF5R4FE6YB5VQ</value>
+        <value xsi:type="xsd:string">AKIAJBD3UCZAHLZ4APMQ</value>
     </values>
     <values>
         <field>SecretKey__c</field>
-        <value xsi:type="xsd:string">JkeBzX7bT0U/XXPAFLC4vUXV6UJhjq/eWXEfz1OE</value>
+        <value xsi:type="xsd:string">VxOvTZPSc3raZqtXLgIWQqGtZFKpi8/QQu7/tYIr</value>
     </values>
     <values>
         <field>bucket__c</field>
-        <value xsi:type="xsd:string">plan</value>
+        <value xsi:type="xsd:string">planstorage</value>
     </values>
     <values>
         <field>folder__c</field>
@@ -20,6 +20,6 @@
     </values>
     <values>
         <field>region__c</field>
-        <value xsi:type="xsd:string">us-west-1</value>
+        <value xsi:type="xsd:string">us-west-2</value>
     </values>
 </CustomMetadata>
